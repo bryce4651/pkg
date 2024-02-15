@@ -1,14 +1,14 @@
 package es
 
 type EsCfg struct {
-	Addr     string  `yaml:"addr"`
-	User     string  `yaml:"user"`
-	Password string  `yaml:"password"`
-	Index    string  `yaml:"index"`
-	BulkCfg  BulkCfg `yaml:"bulk_cfg"`
+	Addr     string  `yaml:"addr" json:"addr"`
+	User     string  `yaml:"user" json:"user"`
+	Password string  `yaml:"password" json:"password"`
+	Index    string  `yaml:"index" json:"index"`
+	BulkCfg  BulkCfg `yaml:"bulk_cfg" json:"bulk_cfg"`
 }
 
 type BulkCfg struct {
-	BulkActionsNum int `yaml:"bulk_actions_num"`
-	WorkNum        int `yaml:"work_num"`
+	BulkActions int `yaml:"bulk_actions" json:"bulk_actions"`
+	Workers     int `yaml:"workers" json:"workers"`
 }

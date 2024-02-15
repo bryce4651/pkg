@@ -3,7 +3,6 @@ package es
 import (
 	"context"
 
-	"github.com/bryce4651/pkg/log"
 	"github.com/olivere/elastic/v7"
 )
 
@@ -16,17 +15,15 @@ type ESWriter struct {
 func NewEsWriter(name string, cfg *EsCfg) (*ESWriter, error) {
 	cli, err := elastic.NewClient(elastic.SetURL(cfg.Addr))
 	if err != nil {
-		log.Error(err)
 		return nil, err
 	}
 	// 创建一个BulkProcessor
 	bulkProcessor, err := cli.BulkProcessor().
 		Name(name).
-		Workers(cfg.BulkCfg.WorkNum).
-		BulkActions(cfg.BulkCfg.BulkActionsNum).
+		Workers(cfg.BulkCfg.Workers).
+		BulkActions(cfg.BulkCfg.BulkActions).
 		Do(context.Background())
 	if err != nil {
-		log.Error(err)
 		return nil, err
 	}
 	return &ESWriter{cli: cli, processor: bulkProcessor, index: cfg.Index}, nil
