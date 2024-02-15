@@ -2,10 +2,10 @@ module github.com/bryce4651/pkg/es
 
 go 1.21.4
 
-replace github.com/bryce4651/pkg/log => ../log
+// replace github.com/bryce4651/pkg/log => ../log
 
 require (
-	github.com/bryce4651/pkg/log v0.0.0-00010101000000-000000000000
+	github.com/bryce4651/pkg v0.0.0-20240215111001-6d73d96a2eb8
 	github.com/olivere/elastic/v7 v7.0.32
 )
 

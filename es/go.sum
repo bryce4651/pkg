@@ -1,3 +1,5 @@
+github.com/bryce4651/pkg v0.0.0-20240215111001-6d73d96a2eb8 h1:Zdofn8LAfW6xOJPSb/QpW3qVU2VXKKhyqUoeMO5u+Ws=
+github.com/bryce4651/pkg v0.0.0-20240215111001-6d73d96a2eb8/go.mod h1:bx+nFVZkuVJ52oPstdHW9u2LgE2OlaIb4lSn3h4ZA0k=
 github.com/fortytw2/leaktest v1.3.0 h1:u8491cBMTQ8ft8aeV+adlcytMZylmA5nnwwkRZjI8vw=
 github.com/fortytw2/leaktest v1.3.0/go.mod h1:jDsjWgpAGjm2CA7WthBh/CdZYEPF31XHquHwclZch5g=
 github.com/google/go-cmp v0.5.7 h1:81/ik6ipDQS2aGcBfIN5dHDB36BwrStyeAQquSYCV4o=
