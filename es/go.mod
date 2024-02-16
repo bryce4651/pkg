@@ -1,6 +1,6 @@
 module github.com/bryce4651/pkg/es
 
-go 1.21.4
+go 1.21
 
 // replace github.com/bryce4651/pkg/log => ../log
 

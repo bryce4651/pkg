@@ -1,6 +1,6 @@
 module github.com/bryce4651/pkg/cache
 
-go 1.21.4
+go 1.21
 
 require github.com/redis/go-redis/v9 v9.4.0
 
