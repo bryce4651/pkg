@@ -1,11 +1,11 @@
 module github.com/bryce4651/pkg/kfk
 
-go 1.21
+go 1.20
 
 // replace github.com/bryce4651/pkg/log => ../log
 
 require (
-	github.com/bryce4651/pkg v0.0.0-20240215111001-6d73d96a2eb8
+	github.com/bryce4651/pkg v0.0.0-20240216124245-f589ddcd1320
 	github.com/segmentio/kafka-go v0.4.47
 )
 
