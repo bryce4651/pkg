@@ -24,6 +24,8 @@ type KfkProducerCfg struct {
 	Timeout                int      `yaml:"timeout"`
 	Sasl                   SaslCfg  `yaml:"sasl"`
 	AllowAutoTopicCreation bool     `yaml:"allow_auto_topic_creation"`
+	BatchSize              int      `yaml:"batch_size"`
+	BatchBytes             int      `yaml:"batch_bytes"`
 }
 
 type SaslCfg struct {
