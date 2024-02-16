@@ -1,5 +1,7 @@
 github.com/bryce4651/pkg v0.0.0-20240216124245-f589ddcd1320 h1:+YFAG7JPJA2gjrrKjCC5XJU+PKClywaQNhAOr2LLx9M=
 github.com/bryce4651/pkg v0.0.0-20240216124245-f589ddcd1320/go.mod h1:/IEq66WHa0I/h6I9vdYQGwAUbt6YlEcQ8WVN89s4+sQ=
+github.com/bryce4651/pkg v0.1.0 h1:kPoQynzrikyK05itjiJRpjgIzgGmKnRhbRfBJqf/ny8=
+github.com/bryce4651/pkg v0.1.0/go.mod h1:BhznrNv3eAP2Hi8EPglQDXezXXVohIt6ZyQvcwdZI5s=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

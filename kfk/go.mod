@@ -5,7 +5,7 @@ go 1.20
 // replace github.com/bryce4651/pkg/log => ../log
 
 require (
-	github.com/bryce4651/pkg v0.0.0-20240216124245-f589ddcd1320
+	github.com/bryce4651/pkg v0.1.0
 	github.com/segmentio/kafka-go v0.4.47
 )
 
